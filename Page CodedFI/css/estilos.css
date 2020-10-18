@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background: linear-gradient(rgba(255, 255, 255, 0.822), rgba(255, 255, 255, 0.89)),url(../imagenes/Fondo.png);
+  height: 100vh;
+  background-size: cover;
+}
+
+#contenedor-titulo-flex {
+  display: flex;
+  justify-content: center;
+  margin: 18vh 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  color: rgb(0, 63, 199);
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  color: rgb(43, 0, 199);
+}
+
+.contenedor-titulo {
+  text-align: center;
+}
+
+
+/*Tabla*/
+
+#main-container{
+  margin: 10px auto;
+  width: 850px;
+}
+
+table{
+  background-color:white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,td{
+
+  padding: 20px;
+}
+
+thead{
+  background-color: #800031;
+  border-bottom: solid 5px #800031;
+  color: white;
+}
+
+tr:nth-child(even){
+  background-color: #ddd;
+}
+
+tr:hover td{
+  background-color: #800031;
+  color:white;
+}

@@ -1,0 +1,235 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Visualización Interactiva BBVA</title>
+  <meta name="description" content="Página Web Interactiva para visualización de datos bancarios Hackathon BBVA">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Actor&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!--<link rel="stylesheet" href="css/estilos.css">-->
+
+</head>
+
+  <body>
+
+    <!-- Inicio Header-->
+    <header id="header">
+      <div class="container">
+        <div id="logo" class="fa-pull-left">
+          <a href="index.html" class="scrollto"><img src="img/logo_nav.png" alt="" title="logo"></a>
+        </div>
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="menu-active"><a href="#">Inicio</a></li>
+            <li><a href="#">Entrada 1</a></li>
+            <li><a href="#">Entrada 2</a></li>
+            <li class="boton_nosotros"><a href="#">Entrada 3</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Fin Header-->
+
+    <!-- Inicio Encabezado -->
+    <section id="intro" class="intro_inicio">
+      <div class="intro-container">
+        <h1 class="mb-4 pb-0">Visualización interactiva de datos</h1>
+        <p class="mb-4 pb-0">Hackathon BBVA 2020</p>
+        <a href="#coded" class="about-btn scrollto">Comenzar</a>
+      </div>
+    </section>
+    <!-- Fin encabezado -->
+
+    <div class="espacio_div"></div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col table-responsive-md">
+          <table class="table table-striped table-bordered table-hover table-center">
+            <h3 class="titulo_tabla">Tabla de datos</h3>
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Periodo</th>
+                <th>Inicio de Servicio</th>
+                <th>Cierre de Servicio</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Nom1</td>
+                <td>01/08/20 --- 17/08/20</td>
+                <td>17/07/20</td>
+                <td>17/08/20</td>
+                <td style="color:#00aa2b"><b>Recolectado</b></td>
+              </tr>
+              <tr>
+                <td>Nom2</td>
+                <td>01/08/20 --- 17/08/20</td>
+                <td>17/07/20</td>
+                <td>17/08/20</td>
+                <td style="color:#00aa2b"><b>Recolectado</b></td>
+              </tr>
+              <tr>
+                <td>Nom3</td>
+                <td>01/08/20 --- 17/08/20</td>
+                <td>17/07/20</td>
+                <td>17/08/20</td>
+                <td style="color:#00aa2b"><b>Recolectado</b></td>
+              </tr>
+              <tr>
+                <td>Nom4</td>
+                <td>01/08/20 --- 17/08/20</td>
+                <td>17/07/20</td>
+                <td>17/08/20</td>
+                <td style="color:#00aa2b"><b>Recolectado</b></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="espacio_div"></div>
+
+
+    <div class="Form">
+      <div class="formulario_a">
+        <h4>Selección de Estados</h4>
+        <div class="forma_exterior">
+          <form action="#">
+            <div class="formulario">
+              <div class="campo">Parte 1. Identificación</div>
+              <div class="field">
+                <div class="label">Ingresa tu Nombre</div>
+                <input type="text">
+              </div>
+              <div class="field">
+                <div class="label">Ingresa tu Apellido</div>
+                <input type="text">
+              </div>
+              <div class="field">
+                <button>Siguiente</button>
+              </div>
+            </div>
+
+            <div class="formulario">
+              <div class="campo">Parte 2. Selección de Estados</div>
+              <div class="field">
+                <div class="label">Ingresa el nombre del Estado</div>
+                <input type="text">
+              </div>
+              <div class="field">
+                <div class="label">Ingresa el nombre del Municipio</div>
+                <input type="text">
+              </div>
+              <div class="field btns">
+                <button class="prev-1 prev">Anterior</button>
+                <button class="next-1 next">Siguiente</button>
+              </div>
+            </div>
+
+            <div class="formulario">
+              <div class="campo">Parte 3. Indicadores</div>
+              <div class="field">
+                <div class="label">Selecciona el Periodo en años</div>
+                <input type="text">
+              </div>
+              <div class="field">
+                <div class="label">Selecciona el periodo en días</div>
+                <select>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+              <div class="field btns">
+                <button class="prev-2 prev">Anterior</button>
+                <button class="next-2 next">Siguiente</button>
+              </div>
+            </div>
+
+            <div class="formulario">
+              <div class="campo">Parte 4. Consultar</div>
+              <div class="field">
+                <div class="label">Ingresa el modo de visualización</div>
+                <input type="text">
+              </div>
+              <div class="field">
+                <div class="label">Selecciona la forma de consulta</div>
+                <input type="password">
+              </div>
+              <div class="field btns">
+                <button class="prev-1 prev">Anterior</button>
+                <button class="submit">Consultar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="espacio_div"></div>
+
+    <!--Inicio Footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 footer-info">
+              <h4 class="texto-footer">Sobre la página</h4>
+              <p>Nuestro sitio web se creó para presentar los proyectos desarrollados, es por ello que está
+                creado con las condiciones y estándares de la actualidad; con el fin de ofrecer al usuario
+                un lugar agradable usando las mejores tecnologías en desarrollo web</p>
+            </div>
+            <div class="col-lg-6 col-md-12 footer-links">
+              <h4 class="texto-footer">Sitios de interés</h4>
+              <ul>
+                <li><i class="fa fa-angle-right"></i> <a href="index.html">Inicio</a></li>
+                <li><i class="fa fa-angle-right"></i> <a href="#">Acerca De</a></li>
+                <li><i class="fa fa-angle-right"></i> <a href="#">Servicios</a></li>
+                <li><i class="fa fa-angle-right"></i> <a href="#">Términos de Servicios</a></li>
+                <li><i class="fa fa-angle-right"></i> <a href="#">Política de Privacidad</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">&copy; Copyright <strong>CodedFI</strong>. Todos los derechos reservados</div>
+        <div class="credits">2020 - 2021</div>
+      </div>
+    </footer>
+    <!-- Fin de Footer -->
+
+    <!-- Scripts JS-->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
